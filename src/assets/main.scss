@@ -65,9 +65,15 @@ li {
   max-width: 450px;
   width: 100%;
   margin: 0 auto;
-  max-height: 750px;
+  max-height: 600px;
   min-height: 400px;
   background-color: #fff;
   box-shadow: 0 6px 15px rgba(207, 211, 218, 0.35);
-  padding: 120px 100px;
+  padding: 50px 70px;
+  position: relative;
+}
+
+.todos {
+  overflow: auto;
+  max-height: 400px;
 }
